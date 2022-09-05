@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "HELLO, WORLD" > 0-hello_world
-echo "Hello world$" >> 0-hello_world
+julien@ubuntu:/tmp/h$ ./0-hello_world 
+Hello, World
+julien@ubuntu:/tmp/h$ ./0-hello_world | cat -e
+Hello, World$
+julien@ubuntu:/tmp/h$
